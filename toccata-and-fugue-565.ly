@@ -15,110 +15,19 @@
 \include "./sections/fugue/7.ly"
 \include "./sections/fugue/8.ly"
 \include "./sections/fugue/9.ly"
+\include "./sections/fugue/10.ly"
+\include "./sections/fugue/11.ly"
+\include "./sections/fugue/12.ly"
 
-fugue_dyn_ten = {
+fugue_dyn_thirteen = {
   
 }
 
-fugue_rh_ten = \relative c''{
-  r4 r16 f,[ e d] a' r16 r8 r16 e'[-4 d cis]
-  
-  % Measure 86
-  d16[-1 ees32-3 d c bes-3 a g] 
+fugue_rh_thirteen = \relative c''{
 
-  <<
-    \voiceOne {
-      fis8[-2 a]-3~ a[ g c b]
-      
-      % Measure 87
-      ees[ d ees b] c[ b c d]
-      
-      % Measure 88
-      ees[ d ees f] g2~ ^\startTrillSpan
-      
-      % Measure 89
-      g1~
-      
-      % Measure 90
-      g2~
-      g16[ ^\stopTrillSpan g f g] ees[ f d ees] 
-      
-      % Measure 91
-      c[ f ees f] d[ ees c d] 
-      bes[ ees d ees] c d bes c]
-      
-      % Measure 92
-      a[ d c d] bes[ c a bes]
-      g[ bes a bes] c[ bes a g]
-      
-      % Measure 93
-      fis8[ a] d16[ g, c fis,?]
-      bes[ g d' a] bes[ g a fis]
-      
-      % Measure 94
-      g[ d' fis, d'] g,[ d' a d]
-      bes[ g d' a] bes[ g c a]
-      
-    }
-    \new Voice {
-      \voiceTwo
-      
-      r16 ees[ d c]
-      bes8[ b c g']
-      
-      % Measure 87
-      g1~\startTrillSpan
-      
-      % Measure 88
-      g2
-      s2\stopTrillSpan
-      \oneVoice
-    }
-  >>
 }
 
-fugue_lh_ten = \relative c {
-  % Measure 85
-  d16[ e32 f g a b cis] d16 s8.
-  \clef treble
-  a16 b32 cis d e f g a16[ g f e]
-  
-  % Measure 86
-  f8 r r4
-  \clef bass
-  r16 g,[ f g] ees[ g d g]
-  
-  % Measure 87
-  c,[ g' b, g'] c,[ g' d g] 
-  ees[ g g, g'] a,[ g' b, g'] 
-  
-  % Measure 88
-  c,[ g' b, g'] c,[ g' d g]
-  \clef treble
-  
-  <<
-    \new Voice {
-      \voiceOne
-      r16 g'[ f g] ees[ g d g]
-      
-      % Measure 89
-      c,[ g' b, g'] c,[ g' d g]
-      ees[ g g, g'] a,[ g' b, g']
-      
-      % Measure 90
-      c,[ g' b, g'] c,[ g' d g]
-    }
-    \voiceTwo {
-      ees8[ d c b]
-      
-      % Measure 89
-      c[ d ees f] g[ b, c d]
-      
-      % Measure 90
-      ees[ d ees f]
-      \oneVoice
-    }
-  >>
+fugue_lh_thirteen = \relative c {
   
 }
 
@@ -168,6 +77,10 @@ fugue_lh_ten = \relative c {
         \fugue_rh_eight
         \fugue_rh_nine
         \fugue_rh_ten
+        \fugue_rh_eleven
+        \fugue_rh_twelve
+        \fugue_rh_thirteen
+        
       }
       
       
@@ -187,6 +100,9 @@ fugue_lh_ten = \relative c {
         \fugue_dyn_eight
         \fugue_dyn_nine
         \fugue_dyn_ten
+        \fugue_dyn_eleven
+        \fugue_dyn_twelve
+        \fugue_dyn_thirteen
       }
       
       \new Staff = "lower1" \with { 
@@ -208,6 +124,9 @@ fugue_lh_ten = \relative c {
         \fugue_lh_eight
         \fugue_lh_nine
         \fugue_lh_ten
+        \fugue_lh_eleven
+        \fugue_lh_twelve
+        \fugue_lh_thirteen
       }
       
     >>

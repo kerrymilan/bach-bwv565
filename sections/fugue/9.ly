@@ -8,7 +8,7 @@ fugue_dyn_nine = {
   s2
   s2\< s2
   s1
-  s4\! s4\ff s2
+  s4\! s4\mf s2
 }
 
 fugue_rh_nine = \relative c''{
