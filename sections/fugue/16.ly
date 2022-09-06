@@ -1,11 +1,9 @@
 \version "2.22.1"
 
-
-\include "./sections/fugue/14.ly"
-\include "./sections/fugue/15.ly"
-
 fugue_dyn_sixteen = {
-  
+  % Measures 137-140
+  \repeat unfold 4 { s1 }
+  s1\fff
 }
 
 fugue_rh_sixteen = \relative c'' {
@@ -85,20 +83,52 @@ fugue_rh_sixteen = \relative c'' {
   \stemDown
   bes cis]
   
-  bes8[ <bes g e cis>]->
+  bes'8[ <bes g e cis>]->
   <a fis d>->
   
   \change Staff = "lower1" 
   \stemUp   
-  d,32[
+  d,,32[
   \change Staff = "upper1" 
   \stemDown
   a' d f]
   
-  a8[ <a~ fis d>]->
   
-  % Measure 141
-  a4
+  <<
+    \new Voice {
+      \voiceOne 
+      a8[ <a~ fis d a>]->
+      
+      % Measure 141
+      \tieDown
+      a4 g2 <f a,~>4
+      
+      % Measure 142
+      <e a,>2 <d f,>2
+      
+      % Measure 143
+      d1\fermata\arpeggio
+    }
+    \voiceTwo {
+      s4
+      
+      % Measure 141
+      <d bes>2
+      \tieUp
+      <e cis bes>4 d~
+      
+      % Measure 142
+      _\markup { \italic "allarg." }
+      d
+      \tieDown
+      c~ c bes
+      
+      % Measure 143
+      \change Staff = "lower1"
+      <a f d>1\arpeggio
+    }
+  >>
+  \bar "|."
 }
 
 fugue_lh_sixteen = \relative c' {
@@ -115,66 +145,16 @@ fugue_lh_sixteen = \relative c' {
   <e e,>-> r8 r8 <e e,>-> <d d,>-> r8 r8 <d d,>->
   
   % Measure 140
+  \stemDown 
   <cis cis,>-> r8 r8 <cis cis,>-> <c c,>-> r8 r8 <c c,>->
   
-}
-
-\book {
-  \paper { 
-%    score-system-spacing =
-%    #'((basic-distance . 40)
-%       (minimum-distance . 6)
-%       (padding . 10)
-%       (stretchability . 12))
-%    #(set-paper-size "letter portrait")
-
-  }
+  % Measure 141
+  <g g,>4 <bes bes,> <e, e,> <f f,>8[ <g g,>]
   
-  \header {
-    title = "Toccata & Fugue"
-%    subtitle = "BWV 565"
-    composer = "J. S. Bach"
-    arranger = "arr. K. Milan"
-    tagline = ##f
-
-  }
-
-  \score {
+  % Measure 142
+  <a a,>2 <bes bes,>4 <g g,>
   
- %   \layout {
- %     #(layout-set-staff-size 18)
- %   }
-    
-    \new PianoStaff \with {  } <<
-      \new Staff = "upper1" \with { 
-        \consists "Merge_rests_engraver" 
-      } 
-      {
-       
-        \fugue_rh_fourteen
-        \fugue_rh_fifteen
-        \fugue_rh_sixteen
-        
-      }
-      
-      
-      \new Dynamics {
-        
-        \fugue_dyn_fourteen
-        \fugue_dyn_fifteen
-        \fugue_dyn_sixteen
-      }
-      
-      \new Staff = "lower1" \with { 
-        \consists "Merge_rests_engraver" 
-      } 
-      {
-
-        \fugue_lh_fourteen
-        \fugue_lh_fifteen
-        \fugue_lh_sixteen
-      }
-      
-    >>
-  }
+  % Measure 143
+  \stemDown
+  <d d,>1\arpeggio
 }

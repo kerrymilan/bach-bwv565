@@ -9,6 +9,9 @@ fugue_dyn_twelve = {
   
   % Measure 109
   s16 s16\ff s4.
+  
+  % Measures 110-114
+  \repeat unfold 5 { s1 }
 }
 
 
