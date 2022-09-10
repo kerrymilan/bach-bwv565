@@ -25,9 +25,9 @@ fugue_rh_fourteen = \relative c''{
   <a f c>4 <f bes, f>8[ <ees a, f>]
   
   % Measure 122
-  <d f,>16[ <ees g,> <d f,> <c e,>]
-  <bes d,>[ <c e,> <bes d,> <a c,>]
-  <g bes,>[ <c e,> <bes d,> <a c,>]
+  <d f,>16[ <ees g,> <d f,> <c ees,>]
+  <bes d,>[ <c ees,> <bes d,> <a c,>]
+  <g bes,>[ <c ees,> <bes d,> <a c,>]
   <g bes,>[ <a c,> <g bes,> <fis a,>]
   
   % Measure 123
@@ -80,7 +80,11 @@ fugue_lh_fourteen = \relative c {
         f[ a a, a'] b,[ a' cis, a']
         d,[ a' cis, a'] d,[ a' b, a']
         
+        \change Staff = "upper1"
+        \stemDown
         cis8
+        \stemNeutral
+        \change Staff = "lower1"
       }
     }
     \voiceTwo {

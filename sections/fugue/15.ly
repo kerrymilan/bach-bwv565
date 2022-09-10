@@ -61,7 +61,7 @@ fugue_rh_fifteen = \relative c'' {
   r16
   \relative c' {
     \clef bass
-    gis[ b f] g[ d f bes,]
+    gis[ b f] gis[ d f bes,]
     d[ gis, a8]
   }
   \clef treble
@@ -69,15 +69,15 @@ fugue_rh_fifteen = \relative c'' {
     \new Voice {
       \voiceOne
       r8
-      <d b>8 <c~ e,>2
+      <d b>8 <c-5~ e,-1>2
       
       % Measure TODO
-      <c e,>2\fermata
+      <c>2\fermata
     }
     \voiceTwo {
       r8
-      <gis e> a4. g16[ f]
-      g2
+      <gis e> a4.-4 g16[ f]
+      e2
       \oneVoice
     }
   >>

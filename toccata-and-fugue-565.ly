@@ -1,123 +1,27 @@
 \version "2.22.1"
 
+\include "./sections/toccata/1-intro.ly"
+\include "./sections/toccata/2.ly"
+\include "./sections/toccata/3.ly"
+\include "./sections/toccata/4.ly"
+\include "./sections/toccata/5.ly"
 
+\include "./sections/fugue/1.ly"
+\include "./sections/fugue/2.ly"
+\include "./sections/fugue/3.ly"
+\include "./sections/fugue/4.ly"
+\include "./sections/fugue/5.ly"
+\include "./sections/fugue/6.ly"
+\include "./sections/fugue/7.ly"
+\include "./sections/fugue/8.ly"
+\include "./sections/fugue/9.ly"
+\include "./sections/fugue/10.ly"
+\include "./sections/fugue/11.ly"
+\include "./sections/fugue/12.ly"
+\include "./sections/fugue/13.ly"
 \include "./sections/fugue/14.ly"
 \include "./sections/fugue/15.ly"
-
-fugue_dyn_sixteen = {
-  
-}
-
-fugue_rh_sixteen = \relative c'' {
-  % Measure 137
-  <cis a e>8\fermata 
-  \tempo "Vivace"
-  
-  \change Staff = "lower1" 
-  \stemUp   
-  a,32[ cis e
-  \change Staff = "upper1" 
-  \stemDown
-  a]
-  
-  cis8[ <cis a e>]-> <d a f d>-> 
-  
-  \change Staff = "lower1" 
-  \stemUp 
-  a,32[
-  \change Staff = "upper1" 
-  \stemDown
-   d f a]
-  
-  d8[ <d a f>]->
-  
-  % Measure 138
-  <b g d>8->
-  
-  \change Staff = "lower1" 
-  \stemUp   
-  g,32[ b
-  \change Staff = "upper1" 
-  \stemDown
-  d g]
-  
-  b8[ <b g d>]->
-  <c g e c>->
-  
-  \change Staff = "lower1" 
-  \stemUp   
-  g,32[
-  \change Staff = "upper1" 
-  \stemDown
-  c e g]
-  
-  c8[ <c g e c>]->
-  
-  % Measure 139
-  <a f c>->
-  
-  \change Staff = "lower1" 
-  \stemUp   
-  f,32[ a
-  \change Staff = "upper1" 
-  \stemDown
-  c f]
-  
-  a8[ <a f c>]-> 
-  <bes f d bes>->
-  
-  \change Staff = "lower1" 
-  \stemUp   
-  f,32[ bes
-  \change Staff = "upper1" 
-  \stemDown
-  d f]
-  
-  bes8[ <bes f d bes>]->
-  
-  % Measure 140
-  <bes g e bes>->
-  
-  \change Staff = "lower1" 
-  \stemUp   
-  e,,32[ g
-  \change Staff = "upper1" 
-  \stemDown
-  bes cis]
-  
-  bes8[ <bes g e cis>]->
-  <a fis d>->
-  
-  \change Staff = "lower1" 
-  \stemUp   
-  d,32[
-  \change Staff = "upper1" 
-  \stemDown
-  a' d f]
-  
-  a8[ <a~ fis d>]->
-  
-  % Measure 141
-  a4
-}
-
-fugue_lh_sixteen = \relative c' {
-  % Measure 137
-  <a a,>8\fermata
-  
-  r8 r8
-  <g g,>-> <f f,>-> r8 r8 <f f,>-> 
-  
-  % Measure 138
-  <f f,>-> r8 r8 <f f,>-> <e e,>-> r8 r8 <e e,>->
-  
-  % Measure 139
-  <e e,>-> r8 r8 <e e,>-> <d d,>-> r8 r8 <d d,>->
-  
-  % Measure 140
-  <cis cis,>-> r8 r8 <cis cis,>-> <c c,>-> r8 r8 <c c,>->
-  
-}
+\include "./sections/fugue/16.ly"
 
 \book {
   \paper { 
@@ -150,16 +54,48 @@ fugue_lh_sixteen = \relative c' {
         \consists "Merge_rests_engraver" 
       } 
       {
-       
+        \toccata_rh_intro
+        \toccata_rh_two
+        \toccata_rh_three
+        \toccata_rh_four
+        \toccata_rh_five
+        \fugue_rh_one
+        \fugue_rh_two
+        \fugue_rh_three
+        \fugue_rh_four
+        \fugue_rh_five
+        \fugue_rh_six
+        \fugue_rh_seven
+        \fugue_rh_eight
+        \fugue_rh_nine
+        \fugue_rh_ten
+        \fugue_rh_eleven
+        \fugue_rh_twelve
+        \fugue_rh_thirteen
         \fugue_rh_fourteen
         \fugue_rh_fifteen
-        \fugue_rh_sixteen
-        
+        \fugue_rh_sixteen        
       }
       
-      
       \new Dynamics {
-        
+        \toccata_dyn_intro
+        \toccata_dyn_two
+        \toccata_dyn_three
+        \toccata_dyn_four
+        \toccata_dyn_five
+        \fugue_dyn_one
+        \fugue_dyn_two
+        \fugue_dyn_three
+        \fugue_dyn_four
+        \fugue_dyn_five
+        \fugue_dyn_six
+        \fugue_dyn_seven
+        \fugue_dyn_eight
+        \fugue_dyn_nine
+        \fugue_dyn_ten
+        \fugue_dyn_eleven
+        \fugue_dyn_twelve
+        \fugue_dyn_thirteen
         \fugue_dyn_fourteen
         \fugue_dyn_fifteen
         \fugue_dyn_sixteen
@@ -169,7 +105,24 @@ fugue_lh_sixteen = \relative c' {
         \consists "Merge_rests_engraver" 
       } 
       {
-
+        \toccata_lh_intro
+        \toccata_lh_two
+        \toccata_lh_three
+        \toccata_lh_four
+        \toccata_lh_five
+        \fugue_lh_one
+        \fugue_lh_two
+        \fugue_lh_three
+        \fugue_lh_four
+        \fugue_lh_five
+        \fugue_lh_six
+        \fugue_lh_seven
+        \fugue_lh_eight
+        \fugue_lh_nine
+        \fugue_lh_ten
+        \fugue_lh_eleven
+        \fugue_lh_twelve
+        \fugue_lh_thirteen
         \fugue_lh_fourteen
         \fugue_lh_fifteen
         \fugue_lh_sixteen

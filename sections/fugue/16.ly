@@ -91,7 +91,7 @@ fugue_rh_sixteen = \relative c'' {
   d,,32[
   \change Staff = "upper1" 
   \stemDown
-  a' d f]
+  a' d fis]
   
   
   <<

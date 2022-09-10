@@ -74,7 +74,7 @@ fugue_rh_three = \relative c''{
   
   % Measure 53
   <d g d'>8 <d fis d'> <d g d'> <c a' d>
-  <bes g' d'> <d a' d> <d bes' d> <c fis? d'>
+  <bes g' d'>\arpeggio <d a' d> <d bes' d> <c fis? d'>
 }
 
 fugue_lh_three = \relative c' {

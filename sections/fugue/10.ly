@@ -28,7 +28,7 @@ fugue_rh_ten = \relative c''{
 
   <<
     \voiceOne {
-      fis8)[-2 a]-3~-> a[ g( c b])
+      fis8)[-4 a]-5~-> a[ g( c b])
       
       % Measure 87
       ees[ d ees b] c[ b c d]
@@ -56,7 +56,7 @@ fugue_rh_ten = \relative c''{
     \new Voice {
       \voiceTwo
       
-      r16 ees[ d-> c]
+      r16 ees[-2 d-1-> c]-2
       bes8[ b c g']
       
       % Measure 87

@@ -45,13 +45,13 @@ fugue_rh_one = \relative c'' {
 fugue_lh_one = \relative c {
   \clef treble
   \autoBeamOn
-  r16 a'' g a f-3 a e-3 a
+  r16 a'' g a f a e a
   
   % Measure 31
-  d,-5 a' cis,-4 a' d,-3 a' e a f a a, a' b, a' cis,? a'
+  d,-5 a' cis,-4 a' d,-3 a' e-2 a f-2 a a, a' b, a' cis,? a'
   
   % Measure 32
-  d,-2 a' cis,-5 a' d, a' d a 
+  d,-2 a' cis,-5 a' d, a' d, a' 
   f8-3 fis-2 g c,-3
   
   % Measure 33

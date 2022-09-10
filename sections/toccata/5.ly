@@ -60,18 +60,19 @@ toccata_rh_five = \relative c' {
   <g d bes> r <g e cis a> r 
   
   % Measure 29
-  r r8. <cis, e, g>16 
+  r r8. <cis,-4 e,-1 g-2>16 
   <<
     \new Voice {
       \voiceOne
-      <f, a d>8[ f]
-      e4
-      d2
+      \set fingeringOrientations = #'(up)
+      <f,-2 a-3 d-5>8[ f-5]
+      e4-4
+      d2-5
     }
     \voiceTwo {
-      d8[ d]~
-      d[ cis]
-      a2
+      d8[-1 d]-3~
+      d[ cis]-2
+      a2-3
       \oneVoice
     }
   >>
@@ -133,8 +134,8 @@ toccata_lh_five = \relative c' {
     \new Voice {
       \voiceOne
       s8
-      a~ a8.[ g16]~
-      g8[ f16 e] f4
+      a-1~ a8.[ g16]-1~
+      g8[ f16-2 e]-1 f4-2
     }
     \voiceTwo {
       <f f,>8[ <d d,>]

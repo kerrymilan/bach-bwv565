@@ -14,19 +14,19 @@ fugue_rh_thirteen = \relative c''{
   \clef bass
   
   % Measure 116
-  \repeat unfold 2 {
-    g,16[ d g a] bes[ d bes a] 
-  }
+  g,16[ d g a] bes[ d bes a] 
+  g,16[ d g a] bes[ d c bes] 
+  
   
   % Measure 117
   \repeat unfold 2 {
-    a[ fis a bes] c[ ees c bes]
+    a'[ fis a bes] c[ ees c bes]
   }
   
   % Measure 118
   \clef treble
-  a[ bes d fis] g[ bes g d]
-  bes[ g bes d] g[ bes g d]
+  a[-1 bes-2 d-1 fis]-2 g[-3 bes-5 g-3 d]-1
+  bes[-2 g-1 bes-2 d]-1 g[-3 bes g d]
   
   % Measure 119
   \repeat unfold 2 {
@@ -42,7 +42,7 @@ fugue_lh_thirteen = \relative c {
       fis[ d fis g] a[ d a fis]
     }
     \voiceTwo {
-      d,4 r4 <d d,> r
+      d4 r4 <d, d,> r
       \oneVoice
     }
   >>

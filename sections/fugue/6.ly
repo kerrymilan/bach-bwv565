@@ -45,6 +45,7 @@ fugue_rh_six = \relative c''{
       \voiceTwo
       % Measure 59.5
       \slurUp
+      \stemUp
       c16( bes a g f s8.
       \stemDown
       
