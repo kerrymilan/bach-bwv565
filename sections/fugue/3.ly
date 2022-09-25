@@ -30,7 +30,7 @@ fugue_rh_three = \relative c''{
   <<
     \new Voice {
       \voiceOne 
-      b d-3 cis b cis4-4 r4
+      b d-3 cis b cis?4-4 r4
       
       % Measure 48
       r16 d cis d f d cis b c4 e-5~
@@ -39,7 +39,7 @@ fugue_rh_three = \relative c''{
       e8 d-4 d-5 cis-4 c4-4 bes-3
       
       % Measure 50
-      a-4 a-4 g-3 g-3 
+      a-5 a-5 g-4 g-4 
       
       % Measure 51
       fis8-2 a4-3 ees'8-5 d4-5 r8 g-5~
@@ -60,7 +60,7 @@ fugue_rh_three = \relative c''{
       f4-1 e-1 d8-1 a'-2~ a g-1~
       
       % Measure 50
-      <g e-2>4 fis-3 f-2 ees-1~
+      <g e-2>4 fis-3 f-3 ees-1~
       
       % Measure 51
       ees8 d-1 fis-2 c'-4~ c bes16-3 a-1 bes8-2 bes-2
@@ -74,7 +74,7 @@ fugue_rh_three = \relative c''{
   
   % Measure 53
   <d g d'>8 <d fis d'> <d g d'> <c a' d>
-  <bes g' d'>\arpeggio <d a' d> <d bes' d> <c fis? d'>
+  \arpeggioNormal { <bes g' d'>\arpeggio } <d a' d> <d bes' d> <c fis? d'>
 }
 
 fugue_lh_three = \relative c' {
@@ -96,7 +96,7 @@ fugue_lh_three = \relative c' {
     }
   >>
   r16 d-1 cis-2 d-1 a-4 a-3 g-4 a-3 
-  fis-5 d'-1 cis-2 d-1 g,-5 f'-1 ees-2 d-1
+  fis-5 d'-1 cis?-2 d-1 g,-5 f'-1 ees-2 d-1
   
   % Measure 50
   cis-2 e-1 a,-3 cis-2 d,-5 ees'-1 d-1 c-2 

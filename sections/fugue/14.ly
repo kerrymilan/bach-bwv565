@@ -16,18 +16,19 @@ fugue_dyn_fourteen = {
 
 fugue_rh_fourteen = \relative c''{
   % Measure 120
-  <d, fis,>8 r8
+  <d,-2 fis,-1
+  >8 r8
   <d' g, d>[ <c fis, d>] <bes g d>4
   <c g c,>8[ <d g, b,>]
   
   % Measure 121
-  <ees c g>4 <f c f,>8[ <g e bes>] 
+  <ees c g ees>4 <f c f,>8[ <g e bes>] 
   <a f c>4 <f bes, f>8[ <ees a, f>]
   
   % Measure 122
-  <d f,>16[ <ees g,> <d f,> <c ees,>]
-  <bes d,>[ <c ees,> <bes d,> <a c,>]
-  <g bes,>[ <c ees,> <bes d,> <a c,>]
+  <d-4 f,-1>16[ <ees-5 g,-2> <d-4 f,-1> <c-5 ees,-2>]
+  <bes-4 d,-1>[ <c-5 ees,-2> <bes-4 d,-1> <a-5 c,-2>]
+  <g-4 bes,-1>[ <c-5 ees,-2> <bes-4 d,-1> <a-5 c,-2>]
   <g bes,>[ <a c,> <g bes,> <fis a,>]
   
   % Measure 123
@@ -43,7 +44,7 @@ fugue_rh_fourteen = \relative c''{
   a[ cis, d e] f e f d]
 
   e
-  <d a d,>[ <d bes d,> <cis a e>]
+  <d a d,>[ <d bes d,> <cis? a e>]
   _\markup { \italic "allarg." }
   <d a f d>[ <f d a> <e d bes> <c f,>]
   
@@ -58,7 +59,7 @@ fugue_lh_fourteen = \relative c {
   g,[ g' f g] ees[ g d g]
   
   % Measure 121
-  c,[ c bes c] a[ c g c] 
+  c,[-5 c-1 bes c] a[ c g c] 
   f,[ f' ees f] d[ f c f]
   
   % Measure 122

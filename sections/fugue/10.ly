@@ -46,12 +46,12 @@ fugue_rh_ten = \relative c''{
       ees[ f d ees] 
       
       % Measure 91
-      c[ f ees f] d[ ees c d] 
-      bes[ ees d ees] c d bes c]
+      c[-3 f-5 ees-4 f]-5 d[ ees c d] 
+      bes[-3 ees-5 d-4 ees]-5 c d bes c]
       
       % Measure 92
-      a[ d c d] bes[ c a bes]
-      g[ bes a bes] c[ bes a g]      
+      a[-3 d-5 c-4 d]-5 bes[-3 c-4 a-3 bes]-4
+      g[-2 bes-4 a-3 bes]-4 c[-5 bes-4 a-4 g]-3
     }
     \new Voice {
       \voiceTwo
@@ -74,12 +74,12 @@ fugue_rh_ten = \relative c''{
       g16[ aes f g]
       
       % Measure 91
-      ees8[ c'] f,16[ g ees f]
-      d8[ bes'] ees,16[ f d ees?]
+      ees8[-1 c']-2 f,16[ g ees f]
+      d8[-1 bes']-2 ees,16[ f d ees?]
       
       % Measure 92
-      c8[ fis] g16[ a f g] 
-      ees[ g fis g] a[ g f e]
+      c8[-1 fis]-2 g16[-1 a-2 f-1 g]-2
+      ees[-1 g-1 fis-2 g]-1 a[-3 g-1 f-2 e]-1
       
       
       \oneVoice

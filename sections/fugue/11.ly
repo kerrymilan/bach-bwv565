@@ -29,34 +29,34 @@ fugue_dyn_eleven = {
 
 fugue_rh_eleven = \relative c''{
   % Measure 93
-  fis,8[ a] d16[ g, c fis,?]
-  bes[ g d' a] bes[ g a fis]
+  fis,8[-2 a]-1 d16[-5 g,-1 c-4 fis,?]-2
+  bes[-3 g-1 d'-5 a]-2 bes[-3 g-1 a-4 fis]-2
   
   % Measure 94
-  g[ d' fis, d'] g,[ d' a d]
-  bes[ g d' a] bes[ g c a]
+  g[-1 d'-5 fis,-2 d']-5 g,[-1 d'-5 a-2 d]-5
+  bes[-3 g-1 d'-5 a]-2 bes[-3 g-1 c-4 a]-2
   
   % Measure 95
-  d[ c bes a] bes[ a bes g] 
-  a[ bes c d] ees[ d c d]
+  d[-5 c bes a] bes[ a bes g] 
+  a[ bes c-1 d]-2 ees[-3 d-2 c-1 d]-4
   
   % Measure 96
-  bes[ c a bes] g8[ b]
-  c16[ ees f g] aes[ g f g]
+  bes[-2 c-3 a-1 bes]-2 g8[-1 b]-2
+  c16[-1 ees-2 f-3 g]-4 aes[-5 g f g]
   
   % Measure 97
-  ees16[ f d ees] c8[ bes] 
-  a bes4 a8~
+  ees16[-2 f-3 d-1 ees]-3 c8[-1 bes]-3
+  a-2 bes4-3 a8~-2
   
   % Measure 98
-  a8 g4 fis8 f8[ ees]~ ees d16 bes']
+  a8 g4-1 fis8-3 f8[-1 ees]~-2 ees d16-1 bes']-4
   
   % Measure 99
-  a[ bes a g] fis[ ees' d c]
-  bes[ a' g fis] g8.[ f16]
+  a[-3 bes-4 a g] fis[-1 ees'-4 d-3 c]-2
+  bes[-1 a'-5 g-4 fis]-3 g8.[-5 f16]-4
   
   % Measure 100
-  ees[ f d ees] 
+  ees[-3 f-4 d-1 ees]-5 
       
   <<
     \voiceOne {
@@ -66,7 +66,7 @@ fugue_rh_eleven = \relative c''{
       bes a8[ cis] d[ e] f4
       
       % Measure 102
-      e2 d4. f8
+      e2 d4.-4 f8
       
       % Measure 103
       g8[ d cis d] e[ d cis d]
@@ -83,10 +83,10 @@ fugue_rh_eleven = \relative c''{
       
       % Measure 101
       g16[ f ees d] cis8[ e] 
-      f[ g] r8 \stemUp d'8~ \stemDown
+      f[ g] r8 \stemUp d'8~-3 \stemDown
       
       % Measure 102
-      d4 cis a16[ bes g a] f8[ a]
+      d4 cis a16[-2 bes g a] f8[ a]
       
       % Measure 103
       g[ a g f] g[ f e a]
@@ -135,7 +135,7 @@ fugue_lh_eleven = \relative c {
       \clef bass
     }
     \voiceTwo {
-      <d, d,>1~
+      <d, d,>1->~
       
       % Measure 94
       <d d,>~
@@ -168,15 +168,15 @@ fugue_lh_eleven = \relative c {
   <<
     \new Voice {
       \voiceOne
-      r16 ees'[ d c] d[ c bes a]
+      r16 ees'[-1 d-1 c] d[ c bes-3 a]-3
     }
     \voiceTwo {
-      fis4 d
+      fis4-4 d
       \oneVoice
     }
   >>
   % Measure 101
-  g4 a16[ bes a g] f[ g e a]
+  g4-1 a16[-3 bes-2 a g] f[ g e a]
   <<
     \new Voice {
       \voiceOne

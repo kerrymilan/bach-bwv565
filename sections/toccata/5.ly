@@ -17,38 +17,38 @@ toccata_rh_five = \relative c' {
   \oneVoice
   <g' bes cis~ e>2
   \tempo "Prestissimo"
-  \tuplet 3/2 { cis16[ e cis] } \tuplet 3/2 { bes[ cis bes] }
+  \tuplet 3/2 { cis16[ e-4 cis]-2 } \tuplet 3/2 { bes[-1 cis-2 bes]-1 }
   \tuplet 3/2 { cis16[ e cis] } \tuplet 3/2 { bes[ cis bes] }
   
   % Measure 23
   \tuplet 3/2 { cis16[ e cis] } \tuplet 3/2 { bes[ cis bes] }
-  \tuplet 3/2 { cis16[ e cis] } \tuplet 3/2 { bes[ cis bes] }
-  \tuplet 3/2 { g[ bes g] } \tuplet 3/2 { e[ g e] }
+  \tuplet 3/2 { cis16[ e cis] } \tuplet 3/2 { bes[-1 cis-4 bes]-2 }
+  \tuplet 3/2 { g[-1 bes-4 g]-2 } \tuplet 3/2 { e[-1 g-2 e] }
   \tuplet 3/2 { g[ bes g] } \tuplet 3/2 { e[ g e] }
   
   % Measure 24
   \tuplet 3/2 { g[ bes g] } \tuplet 3/2 { e[ g e] }
-  \tuplet 3/2 { g[ bes g] } \tuplet 3/2 { e[ g e] }
-  \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { bes[ cis bes] }
-  \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { bes[ cis bes] }
+  \tuplet 3/2 { g[ bes g] } \tuplet 3/2 { e[-1 g-4 e]-2 }
+  \tuplet 3/2 { cis[-1 e-4 cis]-2 } \tuplet 3/2 { bes[-1 cis bes] }
+  \tuplet 3/2 { cis[-2 e-4 cis] } \tuplet 3/2 { bes[ cis bes] }
   
   % Measure 25
   \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { bes[ cis bes] }
   \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { bes[ cis bes] }
-  \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { e[ g e] }
+  \tuplet 3/2 { cis[-2 e-4 cis]-1 } \tuplet 3/2 { e[-2 g-4 e] }
   \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { e[ g e] }
   
   % Measure 26
   \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { e[ g e] }
-  \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { e[ g e] }
-  \tuplet 3/2 { g[ bes g] } \tuplet 3/2 { bes[ g bes] }
-  \tuplet 3/2 { g[ bes g] } \tuplet 3/2 { bes[ g bes] }
+  \tuplet 3/2 { cis[ e cis] } \tuplet 3/2 { e[-2 g-4 e]-1 }
+  \tuplet 3/2 { g[-2 bes-4 g] } \tuplet 3/2 { bes[ g bes]-4 }
+  \tuplet 3/2 { g[-2 bes-4 g]-1 } \tuplet 3/2 { bes[-2 g-1 bes]-2 }
   
   % Measure 27
   
-  \tuplet 3/2 { cis[ ^\markup { "Rall." } bes cis] } 
-  \tuplet 3/2 { e[ cis e] }
-  \tuplet 3/2 { cis[ bes cis] } \tuplet 3/2 { e[ cis e] }
+  \tuplet 3/2 { cis[-4 ^\markup { "Rall." } bes-1 cis]-2 } 
+  \tuplet 3/2 { e[-4 cis e] }
+  \tuplet 3/2 { cis[ bes cis] } \tuplet 3/2 { e[-4 cis-2 e]-3 }
   
   \arpeggioBracket
   \once \override Arpeggio.positions = #'(-1.0 . -1.0)
@@ -84,37 +84,37 @@ toccata_lh_five = \relative c' {
   
   \clef treble
   <e~ cis g>2
-  \tuplet 3/2 { e16[ g e] } \tuplet 3/2 { cis[ e cis] }
-  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[ e cis] }
+  \tuplet 3/2 { e16[ g-1 e]-2 } \tuplet 3/2 { cis[-4 e-2 cis]-4 }
+  \tuplet 3/2 { e[-2 g-1 e] } \tuplet 3/2 { cis[ e cis] }
   
   % Measure 23
   \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[ e cis] }
-  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[ e cis] }
+  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[-4 e-1 cis]-2 }
   \clef bass
-  \tuplet 3/2 { bes[ cis bes] } \tuplet 3/2 { g[ bes g] }
+  \tuplet 3/2 { bes[-4 cis-1 bes]-2 } \tuplet 3/2 { g[-4 bes-2 g] }
   \tuplet 3/2 { bes[ cis bes] } \tuplet 3/2 { g[ bes g] }
   
   % Measure 24
   \tuplet 3/2 { bes[ cis bes] } \tuplet 3/2 { g[ bes g] }
-  \tuplet 3/2 { bes[ cis bes] } \tuplet 3/2 { g[ bes g] }
-  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[ e cis] }
-  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[ e cis] }
+  \tuplet 3/2 { bes[ cis bes] } \tuplet 3/2 { g[-4 bes-1 g] }
+  \tuplet 3/2 { e[-4 g-1 e] } \tuplet 3/2 { cis[-4 e-2 cis]-4 }
+  \tuplet 3/2 { e[-2 g-1 e] } \tuplet 3/2 { cis[ e cis] }
   
   % Measure 25
   \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[ e cis] }
   \tuplet 3/2 { e[ g e] } \tuplet 3/2 { cis[ e cis] }
-  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { g[ bes g] } 
+  \tuplet 3/2 { e[-2 g-1 e]-4 } \tuplet 3/2 { g[-2 bes-1 g] } 
   \tuplet 3/2 { e[ g e] } \tuplet 3/2 { g[ bes g] } 
   
   % Measure 26
   \tuplet 3/2 { e[ g e] } \tuplet 3/2 { g[ bes g] } 
-  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { g[ bes g] } 
-  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { g[ e g] }
-  \tuplet 3/2 { bes[ cis bes] } \tuplet 3/2 { cis[ bes cis] }
+  \tuplet 3/2 { e[ g e] } \tuplet 3/2 { g[-2 bes-1 g] } 
+  \tuplet 3/2 { e[-4 g-2 e] } \tuplet 3/2 { g[ e-4 g]-1 }
+  \tuplet 3/2 { bes[-3 cis-2 bes] } \tuplet 3/2 { cis[ bes cis] }
   \clef treble
   
   % Measure 27
-  \tuplet 3/2 { e[ cis e] } \tuplet 3/2 { cis[ e cis] }
+  \tuplet 3/2 { e[-1 cis-3 e] } \tuplet 3/2 { cis[ e cis] }
   \tuplet 3/2 { e[ cis e] } \tuplet 3/2 { cis[ e cis] }
   \clef bass
   <g g,>4

@@ -59,7 +59,7 @@ fugue_lh_nine = \relative c {
   
   % Measure 73
   \clef bass
-  bes16 c bes a-1 g f e-1 d cis( a cis e 
+  bes16 c bes a-1 g f e-1 d \stemDown cis( a cis e 
   \stemUp   g bes g e
   
   % Measure 74
