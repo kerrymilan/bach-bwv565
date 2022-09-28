@@ -48,8 +48,8 @@ fugue_rh_fifteen = \relative c'' {
   \stemUp   bes[ c d] ees
   \stemDown d[ c bes] a
   \change Staff = "upper1"
-  \stemUp   c[ d e] fis
-  \stemDown e[ d c] bes
+  \stemUp   c[ d e?] fis
+  \stemDown ees[ d c] bes
   \stemUp fis'[ g a] bes[ c d g,]
   
   % Measure 130
@@ -101,7 +101,7 @@ fugue_rh_fifteen = \relative c'' {
   \stemUp   f[ e f]
   \stemDown d
   \stemUp   g[ f g] e
-  \stemDown c[ b c] a
+  \stemDown c[ b? c] a
   \stemUp   d[ c d] b
   \stemDown gis[ fis gis] e
   \stemUp   c'[ b c] a
@@ -109,8 +109,8 @@ fugue_rh_fifteen = \relative c'' {
   \stemUp   b'[ a b] 
   \stemDown c,
   \stemUp   a'[ g a] 
-  \stemDown b
-  \stemUp   gis[ fis gis] e
+  \stemDown b,
+  \stemUp   gis'[ fis gis] e
   \stemDown \change Staff = "lower1" c[ b a]
   
   % Measure TODO

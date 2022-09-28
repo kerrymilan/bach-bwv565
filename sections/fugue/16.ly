@@ -13,10 +13,10 @@ fugue_rh_sixteen = \relative c'' {
   
   \change Staff = "lower1" 
   \stemUp   
-  a,32[ cis e
+  a,32[ 
   \change Staff = "upper1" 
   \stemDown
-  a]
+  cis e a]
   
   cis8[ <cis a e>]-> <d a f d>-> 
   
@@ -34,10 +34,10 @@ fugue_rh_sixteen = \relative c'' {
   
   \change Staff = "lower1" 
   \stemUp   
-  g,32[ b
+  g,32[
   \change Staff = "upper1" 
   \stemDown
-  d g]
+  b d g]
   
   b8[ <b g d>]->
   <c g e c>->
@@ -56,20 +56,20 @@ fugue_rh_sixteen = \relative c'' {
   
   \change Staff = "lower1" 
   \stemUp   
-  f,32[ a
+  f,32[
   \change Staff = "upper1" 
   \stemDown
-  c f]
+  a c f]
   
   a8[ <a f c>]-> 
   <bes f d bes>->
   
   \change Staff = "lower1" 
   \stemUp   
-  f,32[ bes
+  f,32[
   \change Staff = "upper1" 
   \stemDown
-  d f]
+  bes d f]
   
   bes8[ <bes f d bes>]->
   

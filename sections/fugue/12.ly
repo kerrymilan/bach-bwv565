@@ -51,21 +51,21 @@ fugue_rh_twelve = \relative c''{
       d,[ a' cis, a'] d,[ a' e a]
       f
       \change Staff = "upper1"
-      <e'' g,>[ <d f,> <cis e,>] <d f,>8 r16 f
+      <e''-5 g,-2>[ <d-4 f,-1> <cis-3 e,-1>] <d-5 f,-2>8 r16 f
       
       % Measure 112
       e[ f g a] bes[ a g a]
       f8[ e] d16[ e f ees]
       
       % Measure 113
-      d[ c bes a] g[ a bes c]
+      d[-5 c bes a] g[ a bes c]
       a4 r8 
       \set fingeringOrientations = #'(up) 
       <a-4 c-5~>
       
       % Measure 114
       c[ bes] r g' 
-      ees16[ f d ees] c[ bes a g]
+      ees16[-4 f d ees] c[ bes a g]
     }
     \voiceTwo {
       a'4 s
@@ -76,15 +76,15 @@ fugue_rh_twelve = \relative c''{
       % Measure 111
       s2
       s4
-      r16 cis,, d8
+      s16 cis,,-1 d8-1
       
       % Measure 112
       r4
-      cis' d16[ a b cis] d8[ c]
+      cis' d16[ a b cis?] d8[ c]
       
       % Measure 113
       
-      f,4 r8 ees8~ 
+      f,4-1 r8 ees8~ 
       
       %#(ly:expect-warning "no viable initial configuration found")
       ees16[ c
@@ -102,11 +102,11 @@ fugue_rh_twelve = \relative c''{
       ees-2 c]-1
       
       % Measure 114
-      d[-2 bes-1
+      d[-2 
       \change Staff = "lower1"
       \stemUp
       \set fingeringOrientations = #'(up)
-      <g-1> <d-4>]
+      bes-1 <g-2> <d-4>]
       <g-1>[ <bes-3> <d-1>
       \stemDown
       \change Staff = "upper1"

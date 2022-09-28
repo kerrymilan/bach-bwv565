@@ -23,7 +23,7 @@ fugue_rh_nine = \relative c''{
   
   <<
     \voiceOne {
-      f8 e-4 d c-2 bes-4 a
+      f8 e-4 d-3 c-2 bes-4 a
       
       % Measure 73
       bes16 a g f e-4 d cis b a s8 s4

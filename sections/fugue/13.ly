@@ -15,12 +15,12 @@ fugue_rh_thirteen = \relative c''{
   
   % Measure 116
   g,16[ d g a] bes[ d bes a] 
-  g,16[ d g a] bes[ d c bes] 
+  g16[ d g a] bes[ d c bes] 
   
   
   % Measure 117
   \repeat unfold 2 {
-    a'[ fis a bes] c[ ees c bes]
+    a[ fis a bes] c[ ees c bes]
   }
   
   % Measure 118

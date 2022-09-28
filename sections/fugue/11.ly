@@ -63,39 +63,39 @@ fugue_rh_eleven = \relative c''{
       cis4 d c
       
       % Measure 101
-      bes a8[ cis] d[ e] f4
+      bes-4 a8[-5 cis]-3 d[-4 e]-5 f4-5
       
       % Measure 102
-      e2 d4.-4 f8
+      e2-5 d4.-4 f8
       
       % Measure 103
-      g8[ d cis d] e[ d cis d]
+      g8[-5 d-3 cis-3 d]-4 e[-5 d-4 cis-3 d]-4
       
       % Measure 104
-      e[ d cis d] e[ g f d]
+      e[-5 d-4 cis-3 d]-4 e[-3 g-5 f-4 d]-3
       
       % Measure 105
-      bes[ e d d]
+      bes[-2 e-5 d-5 d]-5
     }
     \new Voice {
       \voiceTwo
-      r16 bes16[ a g] a4 fis
+      r16 bes16[-3 a-2 g]-1 a4-2 fis-1
       
       % Measure 101
-      g16[ f ees d] cis8[ e] 
-      f[ g] r8 \stemUp d'8~-3 \stemDown
+      g16[-2 f-1 ees-2 d]-1 cis8[-2 e]-1 
+      f[-1 g]-1 r8 \stemUp d'8~-3 \stemDown
       
       % Measure 102
-      d4 cis a16[-2 bes g a] f8[ a]
+      d4 cis-3 a16[-2 bes-1 g-2 a]-1 f8[-1 a]-3
       
       % Measure 103
-      g[ a g f] g[ f e a]
+      g[-1 a-1 g-1 f]-1 g[-1 f-1 e-1 a]-1
       
       % Measure 104
-      bes[ a g f] g[ e' d a]
+      bes[-2 a-1 g-1 f]-1 g[-1 e'-3 d-2 a]-1
       
       % Measure 105
-      g[ g a f]
+      g[-1 g-1 a-2 f-1]
       
       \oneVoice
     }
