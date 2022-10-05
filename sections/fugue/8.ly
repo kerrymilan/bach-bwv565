@@ -45,16 +45,16 @@ fugue_rh_eight = \relative c''{
       
       % Measure 67
       b16 g b d s4 bes16 g bes c s4
-      
+
       % Measure 68
       bes16 g bes c s4 a16 f a c s4
-      
+
       % Measure 69
       a16 f a c s4 g16 e g bes s4
-      
+
       % Measure 70
       g16 e g bes s4
-      
+
       \oneVoice
     }
   >>

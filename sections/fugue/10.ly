@@ -79,7 +79,7 @@ fugue_rh_ten = \relative c''{
       
       % Measure 92
       c8[-1 fis]-2 g16[-1 a-2 f-1 g]-2
-      ees[-1 g-1 fis-2 g]-1 a[-3 g-1 fis-2 e]-1
+      ees[-1 g-1 fis-2 g]-1 a[-3 g-1 fis?-2 e]-1
       
       
       \oneVoice

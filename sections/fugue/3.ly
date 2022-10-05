@@ -26,14 +26,14 @@ fugue_dyn_three = {
 
 fugue_rh_three = \relative c''{
   r16
-  d cis d 
+  d-3 cis d 
   <<
     \new Voice {
       \voiceOne 
       b d-3 cis b cis?4-4 r4
       
       % Measure 48
-      r16 d cis d f d cis b c4 e-5~
+      r16 d-3 cis d f d cis b cis4 e-5~
       
       % Measure 49
       e8 d-4 d-5 cis-4 c4-4 bes-3
@@ -43,6 +43,7 @@ fugue_rh_three = \relative c''{
       
       % Measure 51
       fis8-2 a4-3 ees'8-5 d4-5 r8 g-5~
+      
       
       % Measure 52
       g[ fis]-4 g-5 c,-4 bes-3 d d d
@@ -54,7 +55,13 @@ fugue_rh_three = \relative c''{
       s2
       \change Staff = "lower1"
       \stemUp a,16-5 \stemDown \change Staff = "upper1"
-      a' g a cis, g' f e
+      a' g a
+
+      \change Staff = "lower1"
+      \stemDown
+      cis, g' f e
+      \stemDown
+      \change Staff = "upper1"
       
       % Measure 49
       f4-1 e-1 d8-1 a'-2~ a g-1~

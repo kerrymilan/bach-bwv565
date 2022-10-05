@@ -31,7 +31,12 @@
 %       (padding . 10)
 %       (stretchability . 12))
 %    #(set-paper-size "letter portrait")
-
+%    annotate-spacing = ##t 
+%    system-system-spacing = #'((basic-distance . 12)
+%                             (minimum-distance . 8)
+%                             (padding . 1)
+%                             (stretchability . 80))
+    page-count = #12
   }
   
   \header {

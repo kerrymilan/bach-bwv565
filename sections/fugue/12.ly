@@ -51,11 +51,11 @@ fugue_rh_twelve = \relative c''{
       d,[ a' cis, a'] d,[ a' e a]
       f
       \change Staff = "upper1"
-      <e''-5 g,-2>[ <d-4 f,-1> <cis-3 e,-1>] <d-5 f,-2>8 r16 f
+      <e''-5 g,-2>[ <d-4 f,-1> <cis-3 e,-1>] <d-5 f,-2>8 r16 f-2
       
       % Measure 112
-      e[ f g a] bes[ a g a]
-      f8[ e] d16[ e f ees]
+      e[ f g a] bes[ a g-3 a]-5
+      f8[-4 e]-4 d16[ e f ees]
       
       % Measure 113
       d[-5 c bes a] g[ a bes c]
@@ -80,7 +80,7 @@ fugue_rh_twelve = \relative c''{
       
       % Measure 112
       r4
-      cis' d16[ a b cis?] d8[ c]
+      cis' d16[ a b cis?]-3 d8[-3 c]
       
       % Measure 113
       

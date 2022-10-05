@@ -120,12 +120,7 @@ fugue_lh_eleven = \relative c {
       
       % Measure 96
       g8[ a] 
-      \change Staff = "upper1"
-      \stemDown
-      bes16[ a 
-      \stemUp
-      \change Staff = "lower1"
-      g f] ees8[ ees'] d4
+      bes16[ a g f] ees8[ ees'] d4
       
       % Measure 97
       c8[ d]
